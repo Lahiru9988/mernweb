@@ -18,7 +18,47 @@ import React from 'react'
                         </div>
                          <div className="row mt-5">
                                  <div className="col-md-4">
-                                     <img src="/assets/contact-us.png" alt="Contact" className="w-200" />
+                                     <img src="/assets/contact-us.png" alt="Contact" className="w-110" />
+                                  </div>
+                                  <div className="col-md-8">
+                                   <from action=""> 
+                                   
+                                   </from>
+                                   <div class="mb-3">
+                                         <label for="name"
+                                           class="form-label">
+                                             Your Name
+                                             </label>
+                                            <input 
+                                             type="email" 
+                                             class="form-control" 
+                                             id="name" 
+                                             placeholder="Lahiru gayashan"/>
+                                      </div>
+
+                                      <div class="mb-3">
+                                         <label for="name"
+                                           class="form-label">
+                                             Email
+                                             </label>
+                                            <input 
+                                             type="email" 
+                                             class="form-control" 
+                                             id="name" 
+                                             placeholder="example@gmail.com"/>
+                                      </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" 
+                                          class="form-label">Your Massage</label>
+                                          <textarea class="form-control" 
+                                          id="exampleFormControlTextarea1" 
+                                          rows="5">  
+                                          </textarea>
+                                        </div>
+                                        <button type="submit" 
+                                        className="btn btn-outline-primary">
+                                          Send Message 
+                                          <i className="fa fa-paper-plane ms-2 "></i></button>
                                   </div>
                           </div>
                     </div>
