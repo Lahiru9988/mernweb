@@ -23,7 +23,7 @@ import React from 'react'
                                   <div className="col-md-8">
                                    <from action=""> 
                                    
-                                   </from>
+                                   
                                    <div class="mb-3">
                                          <label for="name"
                                            class="form-label">
@@ -47,6 +47,7 @@ import React from 'react'
                                              id="name" 
                                              placeholder="example@gmail.com"/>
                                       </div>
+
                                     <div class="mb-3">
                                         <label for="exampleFormControlTextarea1" 
                                           class="form-label">Your Massage</label>
@@ -59,9 +60,12 @@ import React from 'react'
                                         className="btn btn-outline-primary">
                                           Send Message 
                                           <i className="fa fa-paper-plane ms-2 "></i></button>
-                                  </div>
+                                   
+                              
+                                  </from>
                           </div>
                     </div>
+                </div>
           
             </section> 
     </div>
